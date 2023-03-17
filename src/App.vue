@@ -55,6 +55,7 @@ header {
 
 .section-biography {
   display: flex;
+  align-items: start;
   flex-direction: column;
   gap: 70px;
   margin-top: 70px;

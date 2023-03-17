@@ -79,7 +79,7 @@
 .persona-biography {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 500px;
   flex-direction: row;
 }
 
@@ -160,7 +160,7 @@
 .about {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 400px;  
   flex-direction: row;
 }
 
