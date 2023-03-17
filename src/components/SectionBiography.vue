@@ -66,21 +66,21 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 72px;
   width: 1000px;
+  margin-left: 300px;
 }
 
 .persona-biography {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
-  gap: 400px;
 }
 
 .persona-history img {
@@ -100,7 +100,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 20px;
+  
   color: #fbfbfb;
 }
 
@@ -136,7 +136,6 @@
   flex-direction: column;
   align-items: start;
   color: #fbfbfb;
-  gap: 15px;
 }
 
 .link-biography h2 {
@@ -161,8 +160,8 @@
 .about {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-direction: row;
-  gap: 130px;
 }
 
 .about-text {

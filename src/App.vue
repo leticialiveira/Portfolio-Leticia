@@ -55,7 +55,6 @@ header {
 
 .section-biography {
   display: flex;
-  align-items: center;
   flex-direction: column;
   gap: 70px;
   margin-top: 70px;
@@ -65,7 +64,7 @@ header {
 
 .section-project {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   margin-top: 80px;
@@ -79,7 +78,7 @@ header {
   color: #ffffff;
   margin-top: 40px;
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   gap: 30px;
 }
