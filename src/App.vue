@@ -65,7 +65,7 @@ header {
 
 .section-project {
   display: flex;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   margin-top: 80px;
@@ -79,11 +79,13 @@ header {
   color: #ffffff;
   margin-top: 40px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 30px;
 }
 .section-code {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(2, 1fr);
   flex-direction: column;
   font-family: "Poppins", sans-serif;

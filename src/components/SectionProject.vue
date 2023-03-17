@@ -54,6 +54,7 @@
 .title {
   font-style: normal;
   display: flex;
+  align-items: start;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
