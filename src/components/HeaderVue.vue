@@ -1,5 +1,4 @@
 <script setup>
-
 </script>
 
 <template>
@@ -20,7 +19,6 @@
 </template>
 
 <style scoped>
-
 .header{
     display: flex;
     align-items: center;
@@ -33,12 +31,10 @@ h1 {
     font-weight: 700;
     color: var(--color-header-h1);
 }
-
 .header-a{
     display: flex;
     gap: 50px;
 }
-
 .header-a a{
     text-decoration: none;
     color: var(--color-header-a);
@@ -47,7 +43,6 @@ h1 {
     font-size: 16px;
     line-height: 80px;
 }
-
 .space-line{
     width: 1550px;
     height: 0;

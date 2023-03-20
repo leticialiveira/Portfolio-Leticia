@@ -75,21 +75,18 @@
   width: 1000px;
   margin-left: 300px;
 }
-
 .persona-biography {
   display: flex;
   align-items: center;
   gap: 500px;
   flex-direction: row;
 }
-
 .persona-history img {
   width: 124px;
   background-color: #3a3636;
   border-radius: 50%;
   border: solid 1px #3bf686;
 }
-
 .persona-history {
   display: flex;
   align-items: center;
@@ -103,14 +100,12 @@
   
   color: #fbfbfb;
 }
-
 .text-biography h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 72px;
 }
-
 .text-biography p {
   width: 499px;
   font-family: 'Inter', sans-serif;
@@ -119,15 +114,12 @@
   font-size: 18px;
   line-height: 32px;
 }
-
 .text-biography p .span1 {
   color: #4ca9ff;
 }
-
 .text-biography p .span2 {
   color: #62d9ff;
 }
-
 .text-biography p .span3 {
   color: #80ffa3;
 }
@@ -137,33 +129,28 @@
   align-items: start;
   color: #fbfbfb;
 }
-
 .link-biography h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 72px;
 }
-
 .icons-biography {
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 30px;
 }
-
 .icons-biography img {
   width: 26.67px;
   height: 26.67px;
 }
-
 .about {
   display: flex;
   align-items: center;
   gap: 400px;  
   flex-direction: row;
 }
-
 .about-text {
   display: flex;
   flex-direction: column;
@@ -176,7 +163,6 @@
   font-size: 28px;
   line-height: 72px;
 }
-
 .about-text p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -186,11 +172,9 @@
   color: #edcece;
   width: 458px;
 }
-
 .about-text p .span4 {
   color: #3bf686;
 }
-
 .about-text p .span5 {
   color: #4ca9ff;
 }
@@ -200,7 +184,6 @@
   gap: 50px;
   flex-direction: row;
 }
-
 .slide {
   width: 262px;
   height: 190px;
@@ -212,7 +195,6 @@
   justify-content: center;
   position: relative;
 }
-
 .slide h3 {
   font-style: normal;
   font-weight: 600;
@@ -220,7 +202,6 @@
   line-height: 72px;
   color: #fafaf9;
 }
-
 .slide span {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -230,7 +211,6 @@
   color: rgba(239, 237, 232, 0.65);
   width: 225px;
 }
-
 .slide img {
     position: absolute;
     top: -25px;

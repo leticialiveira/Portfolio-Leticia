@@ -6,7 +6,6 @@ defineProps({
   star: String,
   numberStar: String,
 });
-
 </script>
 
 <template>
@@ -43,7 +42,6 @@ article {
   padding: 30px 40px;
   
 }
-
 header {
     height: 50px;
 }
@@ -55,7 +53,6 @@ article header h2 {
   line-height: 72px;
   letter-spacing: 1px;
 }
-
 article header p {
   font-family: "Inter";
   font-style: normal;
@@ -63,7 +60,6 @@ article header p {
   font-size: 18px;
   /* line-height: 32px; */
 }
-
 article footer {
   display: flex;
   flex-direction: row;
@@ -72,26 +68,21 @@ article footer {
   width: 100%;
   margin-top: 140px;
 }
-
 article footer .icons {
   display: flex;
   justify-content: center;
   gap: 15px;
 }
-
 article footer .icons img {
   background: #fbfbfb;
   border-radius: 10px;
   padding: 10px;
   width: 38px;
 }
-
-
 article footer .number-stars{
     display: flex;
     flex-direction: row;
     /* align-items: center; */
     gap: 20px;
 }
-
 </style>
