@@ -18,7 +18,7 @@ import jsonCode from "../mock/jsonCode.json";
     <h1>Code Snippet</h1>
     <div class="section-code">
       <SectionCode
-        v-for="item in jsonCode"
+        v-for=" item in jsonCode"
         :key="item.title"
         :title="item.title"
         :description="item.description"

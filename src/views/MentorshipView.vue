@@ -30,7 +30,7 @@ import FooterVue from '../components/FooterVue.vue'
     display: flex;
     flex-direction: row;
     margin-top: 70px;
-    justify-content: center;
+    justify-content: space-between;
     height: auto;
 }
 
@@ -39,7 +39,7 @@ import FooterVue from '../components/FooterVue.vue'
     flex-direction: row;
     margin-top: 150px;
     gap: 90px;
-    justify-content: center;
+    justify-content: space-between;
     height: auto;
 }
 

@@ -7,7 +7,8 @@ import HeaderVue from './components/HeaderVue.vue'
 
 <template>
     <HeaderVue />
- <router-view></router-view>
+        <!-- <v-slot/> -->
+    <router-view></router-view>
 </template>
 
 <style scoped>
