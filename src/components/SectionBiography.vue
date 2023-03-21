@@ -1,10 +1,13 @@
 <script></script>
 
 <template>
-  <p class="text">
-    Hi Im Naufaldi, a special human with some ability to love learning and
-    working on teamwork.
-  </p>
+  <div class="title">
+    <p class="text">
+      Olá, sou a Letícia, programadora apaixonada por soluções inovadoras e
+      desafios complexos. Habilidade em aprender rapidamente novas linguagens e
+      trabalhar em equipe.
+    </p>
+  </div>
 
   <div class="persona-biography">
     <div class="persona-history">
@@ -20,11 +23,11 @@
       </div>
     </div>
     <div class="link-biography">
-      <h2>Lets connect</h2>
+      <h2>Minhas redes</h2>
       <div class="icons-biography">
-        <img src="../assets/icons/instagram.png" alt="" />
-        <img src="../assets/icons/twiter.png" alt="" />
-        <img src="../assets/icons/facebook.png" alt="" />
+        <a href="https://instagram.com/leticialiveira?igshid=ZDdkNTZiNTM="><img src="../assets/icons/instagram.png" alt="" /></a>
+        <a href="https://twitter.com/leticialiveiraa?t=GXJVygXtHuMUDEddOAtzpg&s=09"><img src="../assets/icons/twiter.png" alt="" /></a>
+        <a href="https://www.facebook.com/profile.php?id=100008019030718"><img src="../assets/icons/facebook.png" alt="" /></a>
       </div>
     </div>
   </div>
@@ -40,7 +43,7 @@
     </div>
     <div class="panel">
       <div class="slide">
-        <img src="../assets/icons/web-dev.png" alt="">
+        <img src="../assets/icons/web-dev.png" alt="" />
         <h3>Web Development</h3>
         <span
           >You will receive a customized plan for your fitness journey, and lots
@@ -48,7 +51,7 @@
         >
       </div>
       <div class="slide">
-          <img src="../assets/icons/ux-research.png" alt="">
+        <img src="../assets/icons/ux-research.png" alt="" />
         <h3>UX Research</h3>
         <span
           >You will receive a customized plan for your fitness journey, and lots
@@ -61,19 +64,24 @@
 </template>
 
 <style scoped>
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 .text {
   background: linear-gradient(134.01deg, #3bf686 40.75%, #4ca9ff 90.52%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  /* text-fill-color: transparent; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 72px;
   width: 1000px;
-  margin-left: 300px;
+  text-align: center;
 }
 .persona-biography {
   display: flex;
@@ -86,7 +94,14 @@
   background-color: #3a3636;
   border-radius: 50%;
   border: solid 1px #3bf686;
+  border-top-color: #51d4db;
+  animation: is-rotating 1s infinite;
 }
+/* @keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+} */
 .persona-history {
   display: flex;
   align-items: center;
@@ -97,7 +112,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  
+
   color: #fbfbfb;
 }
 .text-biography h1 {
@@ -108,7 +123,7 @@
 }
 .text-biography p {
   width: 499px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -126,7 +141,7 @@
 .link-biography {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   color: #fbfbfb;
 }
 .link-biography h2 {
@@ -141,14 +156,14 @@
   flex-direction: row;
   gap: 30px;
 }
-.icons-biography img {
+.icons-biography a  {
   width: 26.67px;
   height: 26.67px;
 }
 .about {
   display: flex;
   align-items: center;
-  gap: 400px;  
+  gap: 400px;
   flex-direction: row;
 }
 .about-text {
@@ -164,7 +179,7 @@
   line-height: 72px;
 }
 .about-text p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -190,7 +205,7 @@
   background: #323443;
   border-radius: 12px;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -203,7 +218,7 @@
   color: #fafaf9;
 }
 .slide span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -212,11 +227,11 @@
   width: 225px;
 }
 .slide img {
-    position: absolute;
-    top: -25px;
-    border: solid 1px #3bf686;
-    background-color: #323443;
-    border-radius: 50%;
-    padding: 12px;
+  position: absolute;
+  top: -25px;
+  border: solid 1px #3bf686;
+  background-color: #323443;
+  border-radius: 50%;
+  padding: 12px;
 }
 </style>

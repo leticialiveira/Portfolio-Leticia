@@ -28,10 +28,10 @@ import jsonCode from "../mock/jsonCode.json";
       />
     </div>
     <div class="link-see-more">
-    <a href="#SeeMore">
+    <router-link to="/code">
       <img src="../assets/icons/see-more.png" alt="" />
       See More
-    </a>
+    </router-link>
   </div>
   </div>
 </template>

@@ -1,0 +1,57 @@
+<script setup>
+defineProps({
+    code: String
+  })
+  defineEmits(['update:code'])
+</script>
+
+<template>
+    <h1>Code Snippet</h1>
+    <span>Search code snippet</span>
+    <input
+      type="search"
+      id="code"
+      @input="$emit('update:code', $event.target.value)" :value="code"
+      placeholder="Type your favorite snippet here, hehehe ....."
+    />
+    <img src="../assets/icons/pesquisa-code.png" alt="" />
+</template>
+
+<style scoped>
+h1 {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+input {
+  background: #3f4152;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  position: relative;
+  width: 1350px;
+  color: #DEDEDE;
+}
+
+img {
+  position: absolute;
+  left: 1300px;
+  bottom: 1395px;
+  width: 27.75px;
+}
+</style>

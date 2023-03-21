@@ -1,31 +1,50 @@
 <script setup>
 import CodeSnippet from "../components/CodeSnippet.vue";
+import CodeSnippetUp from "../components/CodeSnippetUp.vue";
 import FooterVue from "../components/FooterVue.vue";
+import { ref } from "vue";
 import jsonCode from "../mock/jsonCode.json";
+
+// fetch("jsonCode")
+// .then((response) => {
+//   console.log(response.title[0]);
+// }) 
+// .catch((error) => {
+//   console.log(error);
+// })
+  const code = ref("");
+  let filteredCodes = ref(jsonCode);
+  console.log(filteredCodes.value);
+
+  function updateFilteredCodes() {
+   return filteredCodes.value.filter(item => {
+    return (
+      item.title.toUpperCase().includes(code.value.toUpperCase())
+    )
+   })
+  }
+  console.log(updateFilteredCodes());
+
 </script>
 
 <template>
   <div class="section-code-snippet">
-    <h1>Code Snippet</h1>
-    <span>Search code snippet</span>
-    <input type="search" name="" id="inputCode" placeholder="Type your favorite snippet here, hehehe ....."/>
-    <img src="../assets/icons/pesquisa-code.png" alt="" />
+    <CodeSnippetUp v-model:code="code"/>
     <div class="section-code">
-
-        <CodeSnippet
-        v-for="item in jsonCode"
+      <CodeSnippet
+        v-for="item in updateFilteredCodes()"
         :key="item.title"
         :title="item.title"
         :description="item.description"
         :icons="item.icons"
         :star="item.star"
         :numberStar="item.numberStar"
-        />
+      />
     </div>
     <footer>
-        <FooterVue />
+      <FooterVue />
     </footer>
-</div>
+  </div>
 </template>
 
 <style scoped>
@@ -35,41 +54,7 @@ import jsonCode from "../mock/jsonCode.json";
   gap: 20px;
   margin-top: 70px;
 }
-h1 {
-  font-family: "Sora";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  color: #ffffff;
-}
 
-span {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #ffffff;
-}
-
-input {
-  background: #3f4152;
-  border-radius: 10px;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
-  border: 0;
-  position: relative;
-  width: 1350px;
-}
-
-img {
-  position: absolute;
-  left: 1300px;
-  bottom: 1395px;
-  width: 27.75px;
-}
 
 .section-code {
   display: grid;

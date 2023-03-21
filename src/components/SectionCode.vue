@@ -69,7 +69,7 @@ article footer {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 140px;
+  margin-top: 120px;
 }
 article footer .icons {
   display: flex;

@@ -3,17 +3,14 @@
 
 <template>
     <div class="header">
-
-        
-        <h1>Naufaldi</h1>
+        <h1>Letícia</h1>
         <div class="header-a">
-            <a href="#home">Home</a>
-            <a href="#MentorShip">Mentorship</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#snippet">Snippet</a>
-            <a href="#blog">Blog</a>
+            <router-link to ="/">Home</router-link>
+            <router-link to ="/mentorship">Mentorship</router-link>
+            <router-link to ="/projects">Portfolio</router-link>
+            <router-link to ="/code">Snippet</router-link>
+            <router-link to ="#blog">Blog</router-link>
         </div>
-        
     </div>
     <div class="space-line"></div>
 </template>
@@ -42,6 +39,10 @@ h1 {
     font-weight: 600;
     font-size: 16px;
     line-height: 80px;
+}
+
+.header-a a:hover {
+    color:#4D4D4D ;
 }
 .space-line{
     width: 1550px;

@@ -7,11 +7,11 @@
       <div class="projects-img">
         <img class="shadow" src="../assets/image/rectangle.png" alt="" />
         <img class="image" src="../assets/image/image-1-project.png" alt="" />
-        <a class="arrow" href="#project"><img src="../assets/icons/arrow-project.png" alt="" /></a>
+        <a class="arrow" href="https://escola-blueberry-vuetify.vercel.app/"><img src="../assets/icons/arrow-project.png" alt="" /></a>
       </div>
       <div class="projects-text">
         <span>Web Development</span>
-        <a href="#project"><h1>Bolder Landingpage</h1></a>
+        <a href="https://escola-blueberry-vuetify.vercel.app/"><h1>Escola Blueberry</h1></a>
         <p>
           Serrow restructured and designed core pages, creating interactive
           elements that put users in control and allowed them to discover the
@@ -22,12 +22,12 @@
     <div>
       <div class="projects-img">
         <img class="shadow" src="../assets/image/rectangle.png" alt="" />
-        <img class="image" src="../assets/image/image-2.png" alt="" />
-        <a href="#project" class="arrow"><img src="../assets/icons/arrow-project.png" alt=""></a>
+        <img class="image" src="../assets/image/image-4-project.png" alt="" />
+        <a href="https://desafio-2-xi.vercel.app/" class="arrow"><img src="../assets/icons/arrow-project.png" alt=""></a>
       </div>
       <div class="projects-text">
         <span>Web Development</span>
-        <a href="#project"><h1>Kerja Mantul Education Management</h1></a>
+        <a href="https://desafio-2-xi.vercel.app/"><h1>Desafio Google</h1></a>
         <p>
           Serrow restructured and designed core pages, creating interactive
           elements that put users in control and allowed them to discover the
@@ -37,10 +37,10 @@
     </div>
   </div>
   <div class="link-see-more">
-    <a href="#SeeMore">
+    <router-link to="/projects">
       <img src="../assets/icons/see-more.png" alt="" />
       See More
-    </a>
+    </router-link>
   </div>
 </template>
 
