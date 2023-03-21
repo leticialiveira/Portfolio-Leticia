@@ -3,9 +3,7 @@
 <template>
   <div class="title">
     <p class="text">
-      Olá, sou a Letícia, programadora apaixonada por soluções inovadoras e
-      desafios complexos. Habilidade em aprender rapidamente novas linguagens e
-      trabalhar em equipe.
+      Olá, sou Leticia, uma pessoa especial com certa capacidade de amar aprender e trabalhar em equipe.
     </p>
   </div>
 
@@ -13,12 +11,12 @@
     <div class="persona-history">
       <img src="../assets/image/persona.png" alt="" />
       <div class="text-biography">
-        <h1>Biography</h1>
+        <h1>Biografia</h1>
         <p>
-          Getting Buff +1 for learning, Buff +2 for documentation and more buff
-          on managing team. Exicited on <span class="span1">React</span>,
-          <span class="span2">UX Research</span> and
-          <span class="span3">Agile</span>.
+          Olá, sou a <span class="span1">Letícia</span>, programadora apaixonada por soluções inovadoras e
+      desafios complexos. <span class="span2">Habilidade em aprender rapidamente novas linguagens </span> e
+      <span class="span3">trabalhar em equipe.</span>
+        
         </p>
       </div>
     </div>
@@ -44,7 +42,7 @@
     <div class="panel">
       <div class="slide">
         <img src="../assets/icons/web-dev.png" alt="" />
-        <h3>Web Development</h3>
+        <h3>Desenvolvedora Front-End</h3>
         <span
           >You will receive a customized plan for your fitness journey, and lots
           of support.</span
