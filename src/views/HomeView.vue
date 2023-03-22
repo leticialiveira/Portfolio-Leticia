@@ -2,7 +2,6 @@
 import SectionBiography from "../components/SectionBiography.vue";
 import SectionProject from "../components/SectionProject.vue";
 import SectionCode from "../components/SectionCode.vue";
-import jsonCode from "../mock/jsonCode.json";
 
 </script>
 
@@ -15,22 +14,14 @@ import jsonCode from "../mock/jsonCode.json";
     <SectionProject />
   </div>
   <div class="section-code-snippet">
-    <h1>Code Snippet</h1>
+    <h1>Fragmento de código</h1>
     <div class="section-code">
-      <SectionCode
-        v-for=" item in jsonCode"
-        :key="item.title"
-        :title="item.title"
-        :description="item.description"
-        :icons="item.icons"
-        :star="item.star"
-        :numberStar="item.numberStar"
-      />
+      <SectionCode/>
     </div>
     <div class="link-see-more">
     <router-link to="/code">
       <img src="../assets/icons/see-more.png" alt="" />
-      See More
+      Ver nais
     </router-link>
   </div>
   </div>

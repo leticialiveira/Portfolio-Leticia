@@ -2,38 +2,38 @@
 
 <template>
   <div class="left">
-    <h1>Keuntungan Mentorship</h1>
-    <img src="../assets/image/biting.png" alt="" />
+    <h1>Benefícios da mentoria</h1>
+    <img src="../assets/image/equation-meme.png" alt="" />
   </div>
   <div class="right">
     <article>
-        <img src="../assets/icons/emoji-4-mentorship.png" alt="">
+      <img src="../assets/image/laptop-wave.png" alt="" />
       <header>
-        <h2>Mentorship 1 : 1</h2>
+        <h2>Mentorias 1 : 1</h2>
       </header>
       <p>
-        Video Call 1 : 1 dengan mentor untuk berdiskusi, bertanya dan konsultasi
-        seputar mentorship frontend atau hal lainnya
+        Chamada de vídeo 1: 1 com mentor para discutir, tirar dúvidas e
+        consultar sobre mentoria de frontend ou outros assuntos relecionados a
+        desenvolvimento.
       </p>
     </article>
     <article>
-        <img src="../assets/icons/emoji-5-mentorship.png" alt="">
+      <img src="../assets/image/chalkboard-lightbulb.png" alt="" />
       <header>
-        <h2>Terarah</h2>
+        <h2>Direcionamento</h2>
       </header>
       <p>
-        Video Call 1 : 1 dengan mentor untuk berdiskusi, bertanya dan konsultasi
-        seputar mentorship frontend atau hal lainnya
+        Chamada de vídeo 1: 1 com mentores para discutir, tirar dúvidas e
+        consultar sobre mentoria de frontend ou outros assuntos
       </p>
     </article>
     <article>
-        <img src="../assets/icons/emoji-6-mentorship.png" alt="">
+      <img src="../assets/image/laptop-reading.png" alt="" />
       <header>
-        <h2>Silabus</h2>
+        <h2>Programa de Estudos</h2>
       </header>
       <p>
-        Silabus praktis, fundamental yang bisa diimplementasikan berdasarkan
-        studi kasus
+        Programa prático e fundamental composto por uma série de desafios para testar o aprendizado e conhecer coisas novas.
       </p>
     </article>
   </div>
@@ -46,6 +46,7 @@
   gap: 15px;
   align-items: center;
   justify-content: center;
+  gap: 70px;
 }
 
 .left h1 {
@@ -56,8 +57,13 @@
   line-height: 56px;
   color: #ffffff;
   width: 360px;
+  text-align: center;
 }
 
+.left img{
+  width: 400px;
+  height: 400px;
+}
 .right {
   display: flex;
   flex-direction: column;
@@ -65,28 +71,30 @@
 }
 
 .right article {
-    width: 655px;
-    height: 180px;
-    background: #323443;
-    border-radius: 12px;
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    justify-content: center;
-    padding: 90px 90px;
-    position: relative;
+  width: 655px;
+  height: 180px;
+  background: #323443;
+  border-radius: 12px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px 90px;
+  position: relative;
 }
 
 article img {
-    position: absolute;
-    left: -50px;
-    background-color: #323443;
-    border-radius: 50% ;
-    padding: 20px;
-    border: solid 1px #3BF686;
+  position: absolute;
+  left: -100px;
+  background-color: #323443;
+  border-radius: 50%;
+  padding: 20px;
+  border: solid 1px #3bf686;
+  width: 148px;
+  height: 148px;
 }
 article header h2 {
-  width: 233px;
+  width: 310px;
   color: #ffffff;
   font-family: "Sora";
   font-style: normal;
@@ -97,13 +105,11 @@ article header h2 {
 
 article p {
   width: 457px;
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
 }
-
-
 </style>

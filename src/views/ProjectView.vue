@@ -8,7 +8,7 @@ import jsonProjects from "../mock/jsonProjects.json";
 <template>
   <section class="section-project">
     <div class="title">
-      <h1>Project that i has been <span>done</span></h1>
+      <h1> Meus <span>projetos</span> </h1>
       <img src="../assets/icons/arrow-project-view.png" alt="" />
     </div>
     <Projects
@@ -21,9 +21,7 @@ import jsonProjects from "../mock/jsonProjects.json";
       :image="item.image"
     />
   </section>
-  <footer>
-    <FooterVue />
-  </footer>
+
 </template>
 
 <style scoped>
@@ -55,13 +53,5 @@ import jsonProjects from "../mock/jsonProjects.json";
   margin-bottom: 100px;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  margin-top: 120px;
-  gap: 70px;
-}
+
 </style>

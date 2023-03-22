@@ -1,40 +1,94 @@
 <script setup>
-defineProps({
-  title: String,
-  description: String,
-  icons: Object,
-  star: String,
-  numberStar: String,
-});
+
 </script>
 
 <template>
   <!-- <h1>Code Snippet</h1> -->
-  <article >
+<article>
     <header>
-      <div class="description">
+        <div class="description">
 
-        <h2>{{ title }}</h2>
-        <p>{{ description }}</p>
-      </div>
-    </header>
-    <footer>
-      <div class="icons" >
-            <img v-for="item in icons" :src="item" alt="" />
-      </div>
-      <div class="number-stars">
-          <img class="star" :src="star" alt="" />
-          <p>{{ numberStar }}</p>
+            <h2>Nextjs Starter</h2>
+            <p>Um projeto simples para o projeto nextjs.</p>
         </div>
-    </footer>
+      <footer>
+        <div class="icons">
+          <img  src="../assets/icons/icon-1-project.png" alt="" />
+          <img  src="../assets/icons/icon-2-project.png" alt="" />
+        </div>
+        <div class="number-stars">
+          <img class="star" src="../assets/icons/star.png" alt="">
+          <p>8 Stars</p>
+        </div>
+      </footer>
+    </header>
   </article>
+  <article>
+    <header>
+        <div class="description">
 
+            <h2>Frontend Starter Kit</h2>
+            <p>Um projeto clichê simples para html 5. Configuração incluída para minify css, html minify, configuração de SEO.</p>
+        </div>
+      <footer>
+        <div class="icons">
+          <img  src="../assets/icons/icon-1-project.png" alt="" />
+          <img  src="../assets/icons/icon-3-project.png" alt="" />
+          <img  src="../assets/icons/icon-4-project.png" alt="" />
+        </div>
+        <div class="number-stars">
+          <img class="star" src="../assets/icons/star.png" alt="">
+          <p>12 Stars</p>
+        </div>
+      </footer>
+    </header>
+  </article>
+  <article>
+    <header>
+        <div class="description">
+
+            <h2>Nextjs Starter 2.0</h2>
+            <p>Um projeto simples para o nextjs com configuração do firebase.</p>
+        </div>
+      <footer>
+        <div class="icons">
+          <img  src="../assets/icons/icon-1-project.png" alt="" />
+          <img  src="../assets/icons/icon-2-project.png" alt="" />
+        </div>
+        <div class="number-stars">
+          <img class="star" src="../assets/icons/star.png" alt="">
+          <p>89 Stars</p>
+        </div>
+      </footer>
+    </header>
+  </article>
+  <article>
+    <header>
+        <div class="description">
+
+            <h2>Mobile Web Starter Kit</h2>
+            <p>Um projeto clichê simples para html 5. Configuração incluída para minify css, html minify, configuração de SEO.</p>
+        </div>
+      <footer>
+        <div class="icons">
+          <img  src="../assets/icons/icon-1-project.png" alt="" />
+          <img  src="../assets/icons/icon-3-project.png" alt="" />
+          <img  src="../assets/icons/icon-4-project.png" alt="" />
+        </div>
+        <div class="number-stars">
+          <img class="star" src="../assets/icons/star.png" alt="">
+          <p>22 Stars</p>
+        </div>
+      </footer>
+    </header>
+  </article>
 </template>
 
 <style scoped>
+
 article {
   width: 556px;
-  height: 282px;
+  height: 300px;
   background: linear-gradient(0deg, #323443, #323443), #eff6ff;
   border-radius: 20px;
   color: #ffffff;
@@ -45,7 +99,8 @@ article {
   padding: 30px 40px;
   
 }
-header .description {
+
+article header .description {
     height: 70px;
 }
 article header h2 {
@@ -69,7 +124,8 @@ article footer {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 140px;
+  height: 0;
 }
 article footer .icons {
   display: flex;
@@ -82,10 +138,10 @@ article footer .icons img {
   padding: 10px;
   width: 38px;
 }
-article footer .number-stars{
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    gap: 20px;
+article footer .number-stars {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  gap: 20px;
 }
 </style>

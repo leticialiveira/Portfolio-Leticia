@@ -1,21 +1,26 @@
 <script></script>
 
 <template>
-  <h1 class="title">Featured Project</h1>
+  <h1 class="title">Projetos em destaque</h1>
   <div class="projects">
     <div>
       <div class="projects-img">
         <img class="shadow" src="../assets/image/rectangle.png" alt="" />
         <img class="image" src="../assets/image/image-1-project.png" alt="" />
-        <a class="arrow" href="https://escola-blueberry-vuetify.vercel.app/"><img src="../assets/icons/arrow-project.png" alt="" /></a>
+        <a class="arrow" href="https://escola-blueberry-vuetify.vercel.app/"
+          ><img src="../assets/icons/arrow-project.png" alt=""
+        /></a>
       </div>
       <div class="projects-text">
-        <span>Web Development</span>
-        <a href="https://escola-blueberry-vuetify.vercel.app/"><h1>Escola Blueberry</h1></a>
+        <span>Desenvolvedora Front-End</span>
+        <a href="https://escola-blueberry-vuetify.vercel.app/"
+          ><h1>Escola Blueberry</h1></a
+        >
         <p>
-          Serrow restructured and designed core pages, creating interactive
-          elements that put users in control and allowed them to discover the
-          information needed to make a decision.
+          Desafio para criar a parte de front end de um site escolar, utilizando
+          o vue 3 e o vuetify 3. Site composto por um background retirado do
+          site 'freepink', uma logo criada no aplicativo 'Canva', menu de busca,
+          formularios e galeria exibindo imagens.
         </p>
       </div>
     </div>
@@ -23,15 +28,19 @@
       <div class="projects-img">
         <img class="shadow" src="../assets/image/rectangle.png" alt="" />
         <img class="image" src="../assets/image/image-4-project.png" alt="" />
-        <a href="https://desafio-2-xi.vercel.app/" class="arrow"><img src="../assets/icons/arrow-project.png" alt=""></a>
+        <a href="https://desafio-2-xi.vercel.app/" class="arrow"
+          ><img src="../assets/icons/arrow-project.png" alt=""
+        /></a>
       </div>
       <div class="projects-text">
-        <span>Web Development</span>
+        <span>Desenvolvedora Front-End</span>
         <a href="https://desafio-2-xi.vercel.app/"><h1>Desafio Google</h1></a>
         <p>
-          Serrow restructured and designed core pages, creating interactive
-          elements that put users in control and allowed them to discover the
-          information needed to make a decision.
+          Desafio para criar a parte de front end de um site de pesquisa do
+          Google, utilizando o JavaScript puro e uma lista Json para teste. Site
+          composto por menu de busca, formulário que compara o valor recebido
+          com a lista Json e caso a pessoa tenha o acesso, é redirecionada a uma
+          outra página, sem a opção de voltar.
         </p>
       </div>
     </div>
@@ -39,7 +48,7 @@
   <div class="link-see-more">
     <router-link to="/projects">
       <img src="../assets/icons/see-more.png" alt="" />
-      See More
+      Ver mais
     </router-link>
   </div>
 </template>
@@ -96,11 +105,11 @@ div {
   height: 16px;
   border-radius: 4px;
 }
-.projects-img .arrow{
+.projects-img .arrow {
   position: absolute;
   right: 15px;
   top: 10px;
-  background:  #3F4152;
+  background: #3f4152;
   border-radius: 9px;
   width: 36px;
   height: 36px;

@@ -3,13 +3,12 @@
 
 <template>
     <div class="header">
-        <h1>Letícia</h1>
+        <h1>Letícia Oliveira</h1>
         <div class="header-a">
-            <router-link to ="/">Home</router-link>
-            <router-link to ="/mentorship">Mentorship</router-link>
-            <router-link to ="/projects">Portfolio</router-link>
-            <router-link to ="/code">Snippet</router-link>
-            <router-link to ="#blog">Blog</router-link>
+            <router-link to ="/">Início</router-link>
+            <router-link to ="/mentorship">Orientação</router-link>
+            <router-link to ="/projects">Portfólio</router-link>
+            <router-link to ="/code">Framework</router-link>
         </div>
     </div>
     <div class="space-line"></div>

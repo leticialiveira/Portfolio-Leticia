@@ -3,18 +3,17 @@
 <template>
   <div class="space-line"></div>
   <div class="elements">
-    <a href=""> Docs</a>
-    <a href="">Book Notes</a>
-    <a href="">Polywork</a>
-    <a href="">Starter Template</a>
-    <a href="">Statistics</a>
+    <router-link to="/docs"> Documentos</router-link>
+    <a href="#politrabalho">Politrabalho</a>
+    <a href="https://www.figma.com/file/4NSgiUWDLcBeMXv2MFY7kW/Leticia?node-id=0-1&t=C02mJ76E9Fv6NOq3-0">Modelo inicial</a>
+    <a href="#estatisticas">Estatisticas</a>
   </div>
   <div class="socialMedia">
-      <span>Reach me out</span>
+      <span>Redes Sociais</span>
         <div class="socialMedia-links">
-            <a href=""><img src="../assets/icons/footer-git.png" alt=""></a>
-            <a href=""><img src="../assets/icons/footer-linkedin.png" alt=""></a>
-            <a href=""><img src="../assets/icons/footer-twiter.png" alt=""></a>
+            <a href="https://github.com/leticialiveira"><img src="../assets/icons/footer-git.png" alt=""></a>
+            <a href="#linkedin"><img src="../assets/icons/footer-linkedin.png" alt=""></a>
+            <a href="https://twitter.com/leticialiveiraa?t=GXJVygXtHuMUDEddOAtzpg&s=09"><img src="../assets/icons/footer-twiter.png" alt=""></a>
         </div>
   </div>
 </template>

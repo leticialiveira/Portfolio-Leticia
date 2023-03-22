@@ -3,40 +3,55 @@
 <template>
   <div class="title">
     <p class="text">
-      Olá, sou Leticia, uma pessoa especial com certa capacidade de amar aprender e trabalhar em equipe.
+      Seja bem vindo ao meu portfólio, aqui você vai encontrar todos os meus projetos e conhecimentos,espero que seja uma experiência agradável!
     </p>
   </div>
 
   <div class="persona-biography">
     <div class="persona-history">
-      <img src="../assets/image/persona.png" alt="" />
+      <div class="persona-img">
+        <img src="../assets/image/grin-smile.png" alt="" />
+      </div>
       <div class="text-biography">
         <h1>Biografia</h1>
         <p>
-          Olá, sou a <span class="span1">Letícia</span>, programadora apaixonada por soluções inovadoras e
-      desafios complexos. <span class="span2">Habilidade em aprender rapidamente novas linguagens </span> e
-      <span class="span3">trabalhar em equipe.</span>
-        
+          Olá, sou a <span class="span1">Letícia</span>, programadora apaixonada
+          por soluções inovadoras e desafios complexos.
+          <span class="span2"
+            >Habilidade em aprender rapidamente</span> <span class="span3">novas linguagens.</span>
+          
+          
         </p>
       </div>
     </div>
     <div class="link-biography">
       <h2>Minhas redes</h2>
       <div class="icons-biography">
-        <a href="https://instagram.com/leticialiveira?igshid=ZDdkNTZiNTM="><img src="../assets/icons/instagram.png" alt="" /></a>
-        <a href="https://twitter.com/leticialiveiraa?t=GXJVygXtHuMUDEddOAtzpg&s=09"><img src="../assets/icons/twiter.png" alt="" /></a>
-        <a href="https://www.facebook.com/profile.php?id=100008019030718"><img src="../assets/icons/facebook.png" alt="" /></a>
+        <a
+          href="https://github.com/leticialiveira"
+          ><img src="../assets/icons/footer-git.png" alt=""
+        /></a>
+        <a href="https://instagram.com/leticialiveira?igshid=ZDdkNTZiNTM="
+          ><img src="../assets/icons/instagram.png" alt=""
+        /></a>
+        <a
+          href="https://twitter.com/leticialiveiraa?t=GXJVygXtHuMUDEddOAtzpg&s=09"
+          ><img src="../assets/icons/twiter.png" alt=""
+        /></a>
+        
       </div>
     </div>
   </div>
   <div class="about">
     <div class="about-text">
-      <h1>What I do</h1>
+      <h1>O que eu faço</h1>
       <p>
-        Build and maintain websites,
-        <span class="span4">frontend dev</span> also have a mentorship called
-        <span class="span5">MOFON</span>. My motto is Beauty and function in
-        equal measure as priority.
+        Cuido de toda a parte que você pode efetivamente ver em um site.
+        Cuidando de todos os detalhes para que o usuário tenha uma
+        <span class="span4">boa experiência</span> ao fazer um acesso, cuidando
+        desde o <span class="span5">layout</span> até pequenos detalhes de <span class="span5"
+          >menus e rodapés.</span
+        >
       </p>
     </div>
     <div class="panel">
@@ -56,7 +71,7 @@
           of support.</span
         >
       </div>
-      <img src="../assets/icons/arrow.png" alt="" />
+      <!-- <img src="../assets/icons/arrow.png" alt="" /> -->
     </div>
   </div>
 </template>
@@ -67,7 +82,9 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: auto;
 }
+
 .text {
   background: linear-gradient(134.01deg, #3bf686 40.75%, #4ca9ff 90.52%);
   -webkit-background-clip: text;
@@ -76,30 +93,63 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 59px;
   line-height: 72px;
-  width: 1000px;
+  width: 1300px;
   text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
 }
+
 .persona-biography {
   display: flex;
   align-items: center;
   gap: 500px;
   flex-direction: row;
 }
-.persona-history img {
-  width: 124px;
+
+.persona-img {
+  position: relative;
+  width: 144px;
+  height: 144px;
+  /* font: bold 1em 'Century Gothic'; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #3a3636;
   border-radius: 50%;
-  border: solid 1px #3bf686;
-  border-top-color: #51d4db;
-  animation: is-rotating 1s infinite;
 }
-/* @keyframes is-rotating {
-  to {
-    transform: rotate(1turn);
+
+.persona-img::before,
+.persona-img::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  background: linear-gradient(134.01deg, #3bf686, #4ca9ff, #3bf686, #4ca9ff);
+  background-size: 300%;
+  border-radius: 50%;
+  animation: AnimarBorda 8s linear alternate infinite;
+}
+
+@keyframes AnimarBorda {
+  0% {
+    background-position: 0;
   }
-} */
+  100% {
+    background-position: 500%;
+  }
+}
+
+.persona-img::after {
+  filter: blur(10px);
+}
+
+.persona-img img {
+  width: 124px;
+}
+
 .persona-history {
   display: flex;
   align-items: center;
@@ -110,7 +160,6 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-
   color: #fbfbfb;
 }
 .text-biography h1 {
@@ -154,7 +203,7 @@
   flex-direction: row;
   gap: 30px;
 }
-.icons-biography a  {
+.icons-biography a {
   width: 26.67px;
   height: 26.67px;
 }

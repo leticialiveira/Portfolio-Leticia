@@ -6,8 +6,8 @@ defineProps({
 </script>
 
 <template>
-    <h1>Code Snippet</h1>
-    <span>Search code snippet</span>
+    <h1>Fragmentos de códigos</h1>
+    <span>Pesquise por fragmentos:</span>
     <input
       type="search"
       id="code"

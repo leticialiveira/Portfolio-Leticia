@@ -2,16 +2,16 @@
 
 <template>
   <div class="description">
-    <h1>Mentorship</h1>
+    <h1>Estudos</h1>
     <p>
-      Menghabiskan banyak waktu untuk belajar
-      <span>sendiri</span> dan tetap merasa <span>stuck</span>?
+      Passa muito tempo estudando
+      <span>sozinho</span> e ainda se sentindo <span>preso</span>?
     </p>
     <div class="description-space">
       <div class="space-line"></div>
       <span
-        >Mentorship Frontend ini menjadi jawaban atas permasalahanmu. Karena
-        disini, kamu bakal merasakan mentoring yang lebih personal</span
+        >Essa Mentoria de Frontend é a resposta para o seu problema. Porque aqui
+        você sentirá uma orientação mais pessoal</span
       >
     </div>
   </div>
@@ -19,31 +19,31 @@
     <div class="panel-article">
       <article>
         <header>
-          <img src="../assets/icons/emoji-1-mentorship.png" alt="" />
-          <h3>Minggu Pertama</h3>
+          <img src="../assets/image/smile-looking-right.png" alt="" />
+          <h3>Primeira Semana</h3>
         </header>
-        <p>Membahas dasar dari website seperti tag atribut dan element.</p>
+        <p>Fiz o primeiro desafio utilizando Html e Css, aprendendo sobre a importancia da parte estrutural.</p>
       </article>
       <article>
         <header>
-          <img src="../assets/icons/emoji-2-mentorship.png" alt="" />
-          <h3>Minggu Pertama</h3>
+          <img src="../assets/image/sticker.png" alt="" />
+          <h3>Segunda Semana</h3>
         </header>
-        <p>Membahas dasar dari website seperti tag atribut dan element.</p>
+        <p>Comecei a pegar um pouco da lógica do JavaScript, usando funções e comparando a uma lista json.</p>
       </article>
       <article>
         <header>
-          <img src="../assets/icons/emoji-3-mentorship.png" alt="" />
-          <h3>Minggu Pertama</h3>
+          <img src="../assets/image/persona.png" alt="" />
+          <h3>Terceira Semana</h3>
         </header>
-        <p>Membahas dasar dari website seperti tag atribut dan element.</p>
+        <p>Aprendi sobre o vue 3 e o vuetify 3, facilitando mais ainda meu aprendizado com Html, Css e JavaScript.</p>
       </article>
     </div>
 
-    <a href="#bacaSelengkapnya">
+    <!-- <a href="#bacaSelengkapnya">
       <img src="../assets/icons/see-more.png" alt="" />
-      Baca selengkapnya
-    </a>
+      Mais informação
+    </a> -->
   </div>
 </template>
 
@@ -108,12 +108,12 @@
 .panel .panel-article {
   background: #323443;
   border-radius: 12px;
-  width: 652px;
-  height: 231px;
+  width: 700px;
+  height: 250px;
   display: flex;
   gap: 10px;
   align-items: center;
-  padding: 0px 70px;
+  padding: 0px 20px;
 }
 
 .panel-article article {
@@ -124,12 +124,12 @@
 
 header {
   display: flex;
-  gap: 10px;
+  align-items: center;
 }
 
 article header img {
-  width: 36px;
-  height: 36px;
+  width: 100px;
+  height: 100px;
 }
 article header h3 {
   font-family: "Inter";
@@ -148,10 +148,11 @@ article p {
   font-size: 14px;
   line-height: 26px;
   color: #c9c9c9;
-  width: 173px;
+  width: 185px;
+  text-align:center ;
 }
 
-.panel a {
+/* .panel a {
   padding: 10px;
   width: 262px;
   background: #323443;
@@ -167,5 +168,5 @@ article p {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
-}
+} */
 </style>

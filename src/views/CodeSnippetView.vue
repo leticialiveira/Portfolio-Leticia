@@ -41,9 +41,7 @@ import jsonCode from "../mock/jsonCode.json";
         :numberStar="item.numberStar"
       />
     </div>
-    <footer>
-      <FooterVue />
-    </footer>
+
   </div>
 </template>
 
@@ -64,13 +62,5 @@ import jsonCode from "../mock/jsonCode.json";
   margin-top: 20px;
   gap: 50px;
 }
-footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  margin-top: 50px;
-  gap: 70px;
-}
+
 </style>

@@ -32,8 +32,6 @@ defineProps({
 
 <style scoped>
 
-
-
 article {
   width: 556px;
   height: 300px;
