@@ -81,8 +81,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: auto;
   height: auto;
+  border: solid 1px blue;
 }
 
 .text {
@@ -98,7 +99,6 @@
   width: 1300px;
   text-align: center;
   overflow: hidden;
-  margin: 0 auto;
 }
 
 .persona-biography {
@@ -190,12 +190,15 @@
   flex-direction: column;
   align-items: center;
   color: #fbfbfb;
+  border: solid 1px red;
+  width: auto;
 }
 .link-biography h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 72px;
+  width: 100%;
 }
 .icons-biography {
   display: flex;

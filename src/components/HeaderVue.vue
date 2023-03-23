@@ -20,7 +20,8 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    width: 80vw;
+    width: 1550px;
+    border: solid 1px green;
 } 
 h1 {
     font-family: 'Poppins', sans-serif;

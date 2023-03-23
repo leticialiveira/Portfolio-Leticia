@@ -25,5 +25,7 @@ footer {
   height: auto;
   margin-top: 120px;
   gap: 70px;
+  width: 1550px;
+
 }
 </style>
