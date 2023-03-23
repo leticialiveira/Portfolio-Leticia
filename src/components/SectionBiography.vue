@@ -64,7 +64,7 @@
         >
       </div>
       <div class="slide">
-        <img src="../assets/icons/ux-research.png" alt="" />
+        <img src="../assets/icons/clipboard-list.png" alt="" />
         <h3>UX Research</h3>
         <span
           >You will receive a customized plan for your fitness journey, and lots

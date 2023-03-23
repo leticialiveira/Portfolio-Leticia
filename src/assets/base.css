@@ -21,8 +21,8 @@
 
 body {
   height: auto;
-  width: 80vw;
+  min-width: 80vw;
   background-color: var(--bg-body);
-  margin: 0 auto;
-
+  margin: auto;
+  padding: 2rem 8rem;
 }

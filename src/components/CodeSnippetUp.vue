@@ -46,12 +46,13 @@ input {
   position: relative;
   width: 1350px;
   color: #DEDEDE;
+  display: block;
 }
 
 img {
   position: absolute;
   left: 1300px;
-  bottom: 1395px;
+  bottom: 1050px;
   width: 27.75px;
 }
 </style>

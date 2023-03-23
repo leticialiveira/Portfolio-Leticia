@@ -3,11 +3,9 @@ import { RouterView } from 'vue-router'
 import HeaderVue from './components/HeaderVue.vue'
 import FooterVue from './components/FooterVue.vue'
 
-
 </script>
 
 <template>
-    
     <HeaderVue />
   <!-- <v-slot/> -->
   <router-view></router-view>

@@ -6,9 +6,9 @@ import SectionCode from "../components/SectionCode.vue";
 </script>
 
 <template>
-   
-  <div class="section-biography">
-    <SectionBiography />
+
+     <div class="section-biography">
+       <SectionBiography />
   </div>
   <div class="section-project">
     <SectionProject />
@@ -19,15 +19,16 @@ import SectionCode from "../components/SectionCode.vue";
       <SectionCode/>
     </div>
     <div class="link-see-more">
-    <router-link to="/code">
-      <img src="../assets/icons/see-more.png" alt="" />
-      Ver nais
-    </router-link>
-  </div>
+      <router-link to="/code">
+        <img src="../assets/icons/see-more.png" alt="" />
+        Ver nais
+      </router-link>
+    </div>
   </div>
 </template>
 
 <style scoped>
+
 
 header {
   display: flex;
@@ -98,4 +99,6 @@ header {
   text-decoration: none;
   font-size: 14px;
 }
+
+
 </style>
