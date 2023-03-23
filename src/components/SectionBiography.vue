@@ -83,7 +83,6 @@
   justify-content: center;
   width: auto;
   height: auto;
-  border: solid 1px blue;
 }
 
 .text {
@@ -190,7 +189,6 @@
   flex-direction: column;
   align-items: center;
   color: #fbfbfb;
-  border: solid 1px red;
   width: auto;
 }
 .link-biography h2 {
