@@ -1,13 +1,13 @@
 [
   {
-    "image": "./src/assets/image/image-9-project.png",
+    "image": "../src/assets/image/image-9-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Desafio dos conselhos",
     "link": "https://desafio-conselho.vercel.app/",
     "description": "Desafio para criar a parte de front end de um site de Conselhos, utilizando o vue 3 e api. Site composto por um background linear, um botão que carrega um conselho caso seja clicado e uma animação de espera."
   },
   {
-    "image": "./src/assets/image/image-1-project.png",
+    "image": "../src/assets/image/image-1-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Escola Blueberry",
     "link": "https://escola-blueberry-vuetify.vercel.app/",
@@ -15,7 +15,7 @@
   },
   
   {
-    "image": "./src/assets/image/image-2-project.png",
+    "image": "../src/assets/image/image-2-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Boutique Oliveira",
     "link": "https://boutique-oliveira.vercel.app/",
@@ -23,21 +23,21 @@
   },
   
   {
-    "image": "./src/assets/image/image-3-project.png",
+    "image": "../src/assets/image/image-3-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Desafio Letflix",
     "link": "#desafioletflix",
     "description": "Desafio para criar a parte de front end de um site de filmes, utilizando o vue 3 e api. Site composto por filmes/series retirados de um api, uma logo criada no aplicativo 'Canva', menu de busca , com opção de encontrar o filme que deseja através do input, e uma seção que fica trazendo um filme aleatorio como sugestão."
   },
   {
-    "image": "./src/assets/image/image-5-project.png",
+    "image": "../src/assets/image/image-5-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Desafio Carnaval",
     "link": "https://desafio-carnaval.vercel.app/",
     "description": "Desafio para criar a parte de front end de um site de assuntos, com o tema de carnaval, utilizando o vue 3 e uma lista Json. Site composto por cards, formulario de busca, com opção de encontrar o card que deseja através do input."
   },
   {
-    "image": "./src/assets/image/image-4-project.png",
+    "image": "../src/assets/image/image-4-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Desafio Google",
     "link": "https://desafio-2-xi.vercel.app/",
@@ -45,21 +45,21 @@
   },
   
   {
-    "image": "./src/assets/image/image-6-project.png",
+    "image": "../src/assets/image/image-6-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Questionario Game",
     "link": "https://questionario-tawny.vercel.app/",
     "description": "Desafio para criar a parte de front end de um questionário de jogos, utilizando o JavaScript puro e uma lista Json . Site composto por um formulário que compara o valor recebido com a lista Json, trazendo o nome do jogo e a opção de resposta. Abaixo temos um botão que verifica a pontuação do usuário, acertando ele ganha 1 ponto e em cada erro ele perde 1, ou seja, -1."
   },
   {
-    "image": "./src/assets/image/image-7-project.png",
+    "image": "../src/assets/image/image-7-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Valorant",
     "link": "#valorant",
     "description": "Desafio para criar a parte de front end dos resultados do jogo Valorant, utilizando o Vue 3. Site composto por um header que encaminha o usuário a diferentes páginas, dependendo da imagem que ele clicar. As páginas são compostas por diversas animações e designs diferentes."
   },
   {
-    "image": "./src/assets/image/image-8-project.png",
+    "image": "../src/assets/image/image-8-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Hydra",
     "link": "https://hydra-seven.vercel.app/",
