@@ -55,7 +55,7 @@
     "image": "./src/assets/image/image-7-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Valorant",
-    "link": "#valorant",
+    "link": "https://valorant-xi.vercel.app/",
     "description": "Desafio para criar a parte de front end dos resultados do jogo Valorant, utilizando o Vue 3. Site composto por um header que encaminha o usuário a diferentes páginas, dependendo da imagem que ele clicar. As páginas são compostas por diversas animações e designs diferentes."
   },
   {

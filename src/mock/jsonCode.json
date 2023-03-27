@@ -1,42 +1,42 @@
 [
   {
-    "title": "Nextjs Starter",
+    "title": "Vue 3",
     "description": "A dead simple for nextjs project.",
     "icons": {
-        "1": "./src/assets/icons/icon-1-project.png",
-        "2": "./src/assets/icons/icon-2-project.png"
+        "1": "./src/assets/icons/icon-vue-js.png",
+        "2": "./src/assets/icons/icon-sass.png",
+        "3": "./src/assets/icons/icon-js.png"
       },
     "star": "../src/assets/icons/star.png",
-    "numberStar": "8 Stars"
+    "numberStar": "7 Stars"
   },
   {
-    "title": "Frontend Starter Kit",
+    "title": "Vue 2",
     "description": "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
     "icons": {
-        "1": "./src/assets/icons/icon-1-project.png",
-        "2": "./src/assets/icons/icon-3-project.png",
-        "3": "./src/assets/icons/icon-4-project.png"
+        "1": "./src/assets/icons/icon-vue-js.png",
+        "2": "./src/assets/icons/icon-css.png",
+        "3": "./src/assets/icons/icon-js.png"
       },
     "star": "../src/assets/icons/star.png",
     "numberStar": "12 Stars"
   },
   {
-    "title": "Nextjs Starter 2.0",
+    "title": "HTML, CSS e Javascript",
     "description": "A dead simple for nextjs project with firebase setup.",
     "icons": {
-        "1": "./src/assets/icons/icon-1-project.png",
-        "2": "./src/assets/icons/icon-2-project.png"
+        "1": "./src/assets/icons/icon-html.png",
+        "2": "./src/assets/icons/icon-css.png",
+        "3": "./src/assets/icons/icon-js.png"
       },
     "star": "./src/assets/icons/star.png",
     "numberStar": "89 Stars"
   },
   {
-    "title": "Mobile Web Starter Kit",
+    "title": "Javascript",
     "description": "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
     "icons": {
-        "1": "./src/assets/icons/icon-1-project.png",
-        "2": "./src/assets/icons/icon-3-project.png",
-        "3": "./src/assets/icons/icon-4-project.png"
+        "1": "./src/assets/icons/icon-js.png"
       },
     "star": "./src/assets/icons/star.png",
     "numberStar": "22 Stars"

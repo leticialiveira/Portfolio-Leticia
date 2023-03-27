@@ -8,13 +8,15 @@ defineProps({
 <template>
     <h1>Fragmentos de códigos</h1>
     <span>Pesquise por fragmentos:</span>
-    <input
+    <div class="input-img">
+      <input
       type="search"
       id="code"
       @input="$emit('update:code', $event.target.value)" :value="code"
       placeholder="Type your favorite snippet here, hehehe ....."
-    />
-    <img src="../assets/icons/pesquisa-code.png" alt="" />
+      />
+      <img src="../assets/icons/pesquisa-code.png" alt="" />
+    </div>
 </template>
 
 <style scoped>
@@ -36,6 +38,11 @@ span {
   color: #ffffff;
 }
 
+.input-img{
+  position: relative;
+  width: 94%;
+}
+
 input {
   background: #3f4152;
   border-radius: 10px;
@@ -43,16 +50,15 @@ input {
   align-items: center;
   justify-content: center;
   border: 0;
-  position: relative;
-  width: 1350px;
+  width: 100%;
   color: #DEDEDE;
   display: block;
 }
 
 img {
   position: absolute;
-  left: 1300px;
-  bottom: 1050px;
   width: 27.75px;
+  right: 15px;
+  top: 15px;
 }
 </style>

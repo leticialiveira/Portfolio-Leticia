@@ -1,7 +1,6 @@
 <script setup>
 import CodeSnippet from "../components/CodeSnippet.vue";
 import CodeSnippetUp from "../components/CodeSnippetUp.vue";
-import FooterVue from "../components/FooterVue.vue";
 import { ref } from "vue";
 import jsonCode from "../mock/jsonCode.json";
 

@@ -8,17 +8,18 @@
     <header>
         <div class="description">
 
-            <h2>Nextjs Starter</h2>
+            <h2>Vue 3</h2>
             <p>Um projeto simples para o projeto nextjs.</p>
         </div>
       <footer>
         <div class="icons">
-          <img  src="../assets/icons/icon-1-project.png" alt="" />
-          <img  src="../assets/icons/icon-2-project.png" alt="" />
+          <img  src="../assets/icons/icon-vue-js.png" alt="" />
+          <img  src="../assets/icons/icon-sass.png" alt="" />
+          <img  src="../assets/icons/icon-js.png" alt="" />
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">
-          <p>8 Stars</p>
+          <p>7 Stars</p>
         </div>
       </footer>
     </header>
@@ -27,14 +28,14 @@
     <header>
         <div class="description">
 
-            <h2>Frontend Starter Kit</h2>
+            <h2>Vue 2</h2>
             <p>Um projeto clichê simples para html 5. Configuração incluída para minify css, html minify, configuração de SEO.</p>
         </div>
       <footer>
         <div class="icons">
-          <img  src="../assets/icons/icon-1-project.png" alt="" />
-          <img  src="../assets/icons/icon-3-project.png" alt="" />
-          <img  src="../assets/icons/icon-4-project.png" alt="" />
+          <img  src="../assets/icons/icon-vue-js.png" alt="" />
+          <img  src="../assets/icons/icon-css.png" alt="" />
+          <img  src="../assets/icons/icon-js.png" alt="" />
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">
@@ -47,13 +48,14 @@
     <header>
         <div class="description">
 
-            <h2>Nextjs Starter 2.0</h2>
+            <h2>HTML, CSS e Javascript</h2>
             <p>Um projeto simples para o nextjs com configuração do firebase.</p>
         </div>
       <footer>
         <div class="icons">
-          <img  src="../assets/icons/icon-1-project.png" alt="" />
-          <img  src="../assets/icons/icon-2-project.png" alt="" />
+          <img  src="../assets/icons/icon-html.png" alt="" />
+          <img  src="../assets/icons/icon-css.png" alt="" />
+          <img  src="../assets/icons/icon-js.png" alt="" />
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">
@@ -66,14 +68,12 @@
     <header>
         <div class="description">
 
-            <h2>Mobile Web Starter Kit</h2>
+            <h2>Javascript</h2>
             <p>Um projeto clichê simples para html 5. Configuração incluída para minify css, html minify, configuração de SEO.</p>
         </div>
       <footer>
         <div class="icons">
-          <img  src="../assets/icons/icon-1-project.png" alt="" />
-          <img  src="../assets/icons/icon-3-project.png" alt="" />
-          <img  src="../assets/icons/icon-4-project.png" alt="" />
+          <img  src="../assets/icons/icon-js.png" alt="" />
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">

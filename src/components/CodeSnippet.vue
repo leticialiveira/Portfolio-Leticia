@@ -46,6 +46,9 @@ article {
   
 }
 
+article header {
+  width: 100%;
+}
 article header .description {
     height: 70px;
 }
