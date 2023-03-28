@@ -69,6 +69,7 @@
   align-items: baseline;
   justify-content: center;
   gap: 15px;
+  width: 100%;
 }
 div {
   display: flex;

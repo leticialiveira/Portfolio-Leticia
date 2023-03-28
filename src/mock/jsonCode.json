@@ -1,65 +1,55 @@
 [
   {
     "title": "Vue 3",
-    "description": "A dead simple for nextjs project.",
+    "description": "Temos  o Desafio Carnaval como exemplo de projeto, utilizando o vue 3 e o Javascript.",
     "icons": {
         "1": "./src/assets/icons/icon-vue-js.png",
         "2": "./src/assets/icons/icon-sass.png",
         "3": "./src/assets/icons/icon-js.png"
       },
     "star": "../src/assets/icons/star.png",
-    "numberStar": "7 Stars"
+    "numberStar": "8 Estrelas"
   },
   {
     "title": "Vue 2",
-    "description": "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
+    "description": "Temos o Desafio Letflix como exemplo de projeto, utilizando o vue 2 e o Javascript.",
     "icons": {
         "1": "./src/assets/icons/icon-vue-js.png",
         "2": "./src/assets/icons/icon-css.png",
         "3": "./src/assets/icons/icon-js.png"
       },
     "star": "../src/assets/icons/star.png",
-    "numberStar": "12 Stars"
+    "numberStar": "8 Estrelas"
   },
   {
     "title": "HTML, CSS e Javascript",
-    "description": "A dead simple for nextjs project with firebase setup.",
+    "description": "Temos o Questionário Game e o Desafio Google como exemplos de projetos, utilizando o Javascript puro, HTML e CSS.",
     "icons": {
         "1": "./src/assets/icons/icon-html.png",
         "2": "./src/assets/icons/icon-css.png",
         "3": "./src/assets/icons/icon-js.png"
       },
     "star": "./src/assets/icons/star.png",
-    "numberStar": "89 Stars"
+    "numberStar": "9 Estrelas"
   },
   {
     "title": "Javascript",
-    "description": "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
+    "description": "Resolvi quatro listas com questões complexas, utilizando a lógica de programação e Javascript.",
     "icons": {
         "1": "./src/assets/icons/icon-js.png"
       },
     "star": "./src/assets/icons/star.png",
-    "numberStar": "22 Stars"
+    "numberStar": "7 Estrelas"
   },
   {
-    "title": "Nextjs Starter 3.0",
-    "description": "A dead simple for nextjs project with firebase setup.",
+    "title": "Vuetify",
+    "description": "Temos o Desafio da Escola Blueberry como exemplo de projeto, utilizando o vue 3 e o Vuetify.",
     "icons": {
-        "1": "./src/assets/icons/icon-1-project.png",
-        "2": "./src/assets/icons/icon-2-project.png"
+        "1": "./src/assets/icons/icon-html.png",
+        "2": "./src/assets/icons/icon-vuetify.svg",
+        "3": "./src/assets/icons/icon-js.png"
       },
     "star": "./src/assets/icons/star.png",
-    "numberStar": "89 Stars"
-  },
-  {
-    "title": "Mobile Web Starter Kit",
-    "description": "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
-    "icons": {
-        "1": "./src/assets/icons/icon-1-project.png",
-        "2": "./src/assets/icons/icon-3-project.png",
-        "3": "./src/assets/icons/icon-4-project.png"
-      },
-    "star": "./src/assets/icons/star.png",
-    "numberStar": "22 Stars"
+    "numberStar": "7 Estrelas"
   }
 ]

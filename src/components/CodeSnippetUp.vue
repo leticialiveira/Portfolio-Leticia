@@ -13,7 +13,7 @@ defineProps({
       type="search"
       id="code"
       @input="$emit('update:code', $event.target.value)" :value="code"
-      placeholder="Type your favorite snippet here, hehehe ....."
+      placeholder="Procure por alguma habilidade específica"
       />
       <img src="../assets/icons/pesquisa-code.png" alt="" />
     </div>
@@ -40,7 +40,7 @@ span {
 
 .input-img{
   position: relative;
-  width: 94%;
+  width: 100%;
 }
 
 input {

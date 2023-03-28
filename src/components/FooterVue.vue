@@ -21,7 +21,7 @@
 <style scoped>
 .space-line {
   border: solid 1px #4d4d4d;
-  width: 1550px;
+  width: 100%;
 }
 
 .elements {
@@ -29,6 +29,7 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+  width: 100%;
 }
 
 .elements a {
@@ -56,6 +57,7 @@ span {
     gap: 15px;
     align-items: center;
     height: 110px;
+    width: 100%;
 }
 
 .socialMedia .socialMedia-links{

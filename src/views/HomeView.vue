@@ -21,7 +21,7 @@ import SectionCode from "../components/SectionCode.vue";
     <div class="link-see-more">
       <router-link to="/code">
         <img src="../assets/icons/see-more.png" alt="" />
-        Ver nais
+        Ver mais
       </router-link>
     </div>
   </div>
@@ -41,12 +41,12 @@ header {
 
 .section-biography {
   display: flex;
-  align-items: start;
   flex-direction: column;
   gap: 70px;
   margin-top: 70px;
   font-family: "Poppins", sans-serif;
   height: auto;
+  align-items: center;
 }
 
 .section-project {
@@ -69,6 +69,7 @@ header {
   flex-direction: column;
   gap: 30px;
   margin-bottom: 150px;
+
 }
 .section-code {
   display: grid;

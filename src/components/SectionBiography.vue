@@ -81,7 +81,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -105,6 +105,8 @@
   align-items: center;
   gap: 500px;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .persona-img {
@@ -213,6 +215,9 @@
   align-items: center;
   gap: 400px;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+
 }
 .about-text {
   display: flex;

@@ -20,7 +20,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    width: 1550px;
+    width: 100%;
 } 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -44,7 +44,7 @@ h1 {
     color:#4D4D4D ;
 }
 .space-line{
-    width: 1550px;
+    width: 100%;
     height: 0;
     margin-top: 20px;
     border: 1px solid #4D4D4D;

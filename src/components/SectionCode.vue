@@ -9,7 +9,7 @@
         <div class="description">
 
             <h2>Vue 3</h2>
-            <p>Um projeto simples para o projeto nextjs.</p>
+            <p>Temos  o Desafio Carnaval como exemplo de projeto, utilizando o vue 3 e o Javascript.</p>
         </div>
       <footer>
         <div class="icons">
@@ -19,7 +19,7 @@
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">
-          <p>7 Stars</p>
+          <p>8 Estrelas</p>
         </div>
       </footer>
     </header>
@@ -29,7 +29,7 @@
         <div class="description">
 
             <h2>Vue 2</h2>
-            <p>Um projeto clichê simples para html 5. Configuração incluída para minify css, html minify, configuração de SEO.</p>
+            <p>Temos o Desafio Letflix como exemplo de projeto, utilizando o vue 2 e o Javascript.</p>
         </div>
       <footer>
         <div class="icons">
@@ -39,7 +39,7 @@
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">
-          <p>12 Stars</p>
+          <p>8 Estrelas</p>
         </div>
       </footer>
     </header>
@@ -49,7 +49,7 @@
         <div class="description">
 
             <h2>HTML, CSS e Javascript</h2>
-            <p>Um projeto simples para o nextjs com configuração do firebase.</p>
+            <p>Temos o Questionário Game e o Desafio Google como exemplos de projetos, utilizando o Javascript puro, HTML e CSS.</p>
         </div>
       <footer>
         <div class="icons">
@@ -59,7 +59,7 @@
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">
-          <p>89 Stars</p>
+          <p>9 Estrelas</p>
         </div>
       </footer>
     </header>
@@ -69,7 +69,7 @@
         <div class="description">
 
             <h2>Javascript</h2>
-            <p>Um projeto clichê simples para html 5. Configuração incluída para minify css, html minify, configuração de SEO.</p>
+            <p>Resolvi quatro listas com questões complexas, utilizando a lógica de programação e Javascript.</p>
         </div>
       <footer>
         <div class="icons">
@@ -77,7 +77,7 @@
         </div>
         <div class="number-stars">
           <img class="star" src="../assets/icons/star.png" alt="">
-          <p>22 Stars</p>
+          <p>7 Estrelas</p>
         </div>
       </footer>
     </header>
