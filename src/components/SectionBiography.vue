@@ -35,8 +35,8 @@
           ><img src="../assets/icons/instagram.png" alt=""
         /></a>
         <a
-          href="https://twitter.com/leticialiveiraa?t=GXJVygXtHuMUDEddOAtzpg&s=09"
-          ><img src="../assets/icons/twiter.png" alt=""
+          href="https://www.linkedin.com/in/let%C3%ADcia-oliveira-7a31a4201?trk=contact-info"
+          ><img src="../assets/icons/footer-linkedin.png" alt=""
         /></a>
         
       </div>

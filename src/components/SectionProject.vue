@@ -27,20 +27,20 @@
     <div>
       <div class="projects-img">
         <img class="shadow" src="../assets/image/rectangle.png" alt="" />
-        <img class="image" src="../assets/image/image-4-project.png" alt="" />
-        <a href="https://desafio-2-xi.vercel.app/" class="arrow"
+        <img class="image" src="../assets/image/image-3-project.png" alt="" />
+        <a href="https://desafio-letflix.vercel.app/" class="arrow"
           ><img src="../assets/icons/arrow-project.png" alt=""
         /></a>
       </div>
       <div class="projects-text">
         <span>Desenvolvedora Front-End</span>
-        <a href="https://desafio-2-xi.vercel.app/"><h1>Desafio Google</h1></a>
+        <a href="https://desafio-letflix.vercel.app/"><h1>Desafio Letflix</h1></a>
         <p>
-          Desafio para criar a parte de front end de um site de pesquisa do
-          Google, utilizando o JavaScript puro e uma lista Json para teste. Site
-          composto por menu de busca, formulário que compara o valor recebido
-          com a lista Json e caso a pessoa tenha o acesso, é redirecionada a uma
-          outra página, sem a opção de voltar.
+          Desafio para criar a parte de front end de um site de filmes,
+          utilizando o vue 3 e api. Site composto por filmes/series retirados de
+          um api, uma logo criada no aplicativo 'Canva', menu de busca , com
+          opção de encontrar o filme que deseja através do input, e uma seção
+          que fica trazendo um filme aleatorio como sugestão.
         </p>
       </div>
     </div>

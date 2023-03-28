@@ -1,6 +1,6 @@
 [
   {
-    "image": "./src/assets/image/image-9-project.png",
+    "image": "./src/assets/image/image-0-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Desafio dos conselhos",
     "link": "https://desafio-conselho.vercel.app/",
@@ -13,21 +13,19 @@
     "link": "https://escola-blueberry-vuetify.vercel.app/",
     "description": "Desafio para criar a parte de front end de um site escolar, utilizando o vue 3 e o vuetify 3. Site composto por um background retirado do site 'freepink', uma logo criada no aplicativo 'Canva', menu de busca, formularios e galeria exibindo imagens."
   },
-  
+  {
+    "image": "./src/assets/image/image-3-project.png",
+    "functionn": "Desenvolvedora Front-end",
+    "title": "Desafio Letflix",
+    "link": "https://desafio-letflix.vercel.app/",
+    "description": "Desafio para criar a parte de front end de um site de filmes, utilizando o vue 3 e api. Site composto por filmes/series retirados de um api, uma logo criada no aplicativo 'Canva', menu de busca , com opção de encontrar o filme que deseja através do input, e uma seção que fica trazendo um filme aleatorio como sugestão."
+  },
   {
     "image": "./src/assets/image/image-2-project.png",
     "functionn": "Desenvolvedora Front-end",
     "title": "Boutique Oliveira",
     "link": "https://boutique-oliveira.vercel.app/",
-    "description": "Desafio para criar a parte de front end de uma loja virtual, utilizando o vue 3 e o vuetify 3. Site composto por imagens retiradas da loja 'Shoppe', uma logo criada no aplicativo 'Canva', menu de busca, novidades que aparecem através de um slide de fotos, seções de vendas e seções com videos do aplicativo 'Youtube'"
-  },
-  
-  {
-    "image": "./src/assets/image/image-3-project.png",
-    "functionn": "Desenvolvedora Front-end",
-    "title": "Desafio Letflix",
-    "link": "#desafioletflix",
-    "description": "Desafio para criar a parte de front end de um site de filmes, utilizando o vue 3 e api. Site composto por filmes/series retirados de um api, uma logo criada no aplicativo 'Canva', menu de busca , com opção de encontrar o filme que deseja através do input, e uma seção que fica trazendo um filme aleatorio como sugestão."
+    "description": "Desafio para criar a parte de front end de uma loja virtual e utilizando o vue 3. Site composto por imagens retiradas da loja 'Shoppe', uma logo criada no aplicativo 'Canva', menu de busca, novidades que aparecem através de um slide de fotos, seções de vendas e seções com videos do aplicativo 'Youtube'"
   },
   {
     "image": "./src/assets/image/image-5-project.png",

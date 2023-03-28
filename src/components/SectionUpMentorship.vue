@@ -4,14 +4,13 @@
   <div class="description">
     <h1>Estudos</h1>
     <p>
-      Passa muito tempo estudando
-      <span>sozinho</span> e ainda se sentindo <span>preso</span>?
+      
+      <span class="span-0">HTML</span>, <span class="span-1">CSS </span>, <span class="span-3">SASS</span>, <span class="span-2">JavaScript</span>, <span class="span-3">Vue 3</span>, <span class="span-1">Vue 2</span>, <span class="span-4">Vuetify</span>.
     </p>
     <div class="description-space">
       <div class="space-line"></div>
       <span
-        >Essa Mentoria de Frontend é a resposta para o seu problema. Porque aqui
-        você sentirá uma orientação mais pessoal</span
+        >Aprendi através de uma mentoria de treinamento, com questões e desafios para melhorar meu conhecimento na área.</span
       >
     </div>
   </div>
@@ -73,9 +72,22 @@
   color: #eff4f1;
 }
 
-.description p span {
+.description p  .span-0 {
   color: #3bf686;
-  text-decoration: underline;
+}
+
+.description p .span-1 {
+  color: #4CA9FF;
+}
+
+.description p .span-2 {
+  color: #62D9FF;
+}
+.description p .span-3 {
+  color: #7EF5A6;
+}
+.description p .span-4 {
+  color:#80E6EA;
 }
 
 .description-space {
