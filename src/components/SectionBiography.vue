@@ -3,7 +3,8 @@
 <template>
   <div class="title">
     <p class="text">
-      Seja bem vindo ao meu portfólio, aqui você vai encontrar todos os meus projetos e conhecimentos,espero que seja uma experiência agradável!
+      Seja bem vindo ao meu portfólio, aqui você vai encontrar todos os meus
+      projetos e conhecimentos,espero que seja uma experiência agradável!
     </p>
   </div>
 
@@ -17,18 +18,15 @@
         <p>
           Olá, sou a <span class="span1">Letícia</span>, programadora apaixonada
           por soluções inovadoras e desafios complexos.
-          <span class="span2"
-            >Habilidade em aprender rapidamente</span> <span class="span3">novas linguagens.</span>
-          
-          
+          <span class="span2">Habilidade em aprender rapidamente</span>
+          <span class="span3">novas linguagens.</span>
         </p>
       </div>
     </div>
     <div class="link-biography">
       <h2>Minhas redes</h2>
       <div class="icons-biography">
-        <a
-          href="https://github.com/leticialiveira"
+        <a href="https://github.com/leticialiveira"
           ><img src="../assets/icons/footer-git.png" alt=""
         /></a>
         <a href="https://instagram.com/leticialiveira?igshid=ZDdkNTZiNTM="
@@ -38,7 +36,6 @@
           href="https://www.linkedin.com/in/let%C3%ADcia-oliveira-7a31a4201?trk=contact-info"
           ><img src="../assets/icons/footer-linkedin.png" alt=""
         /></a>
-        
       </div>
     </div>
   </div>
@@ -49,9 +46,8 @@
         Cuido de toda a parte que você pode efetivamente ver em um site.
         Cuidando de todos os detalhes para que o usuário tenha uma
         <span class="span4">boa experiência</span> ao fazer um acesso, cuidando
-        desde o <span class="span5">layout</span> até pequenos detalhes de <span class="span5"
-          >menus e rodapés.</span
-        >
+        desde o <span class="span5">layout</span> até pequenos detalhes de
+        <span class="span5">menus e rodapés.</span>
       </p>
     </div>
     <div class="panel">
@@ -59,17 +55,17 @@
         <img src="../assets/icons/web-dev.png" alt="" />
         <h3>Desenvolvedora Front-End</h3>
         <span
-          >You will receive a customized plan for your fitness journey, and lots
-          of support.</span
+          >Atualmente trabalho na Secretaria de Saúde da Bahia, na parte de
+          sistemas, com o início em janeiro de 2023.</span
         >
       </div>
       <div class="slide">
         <img src="../assets/icons/clipboard-list.png" alt="" />
         <h3>UX Research</h3>
         <span
-          >You will receive a customized plan for your fitness journey, and lots
-          of support.</span
-        >
+          >Para adicionar valores ao Front-end trabalho com a retirada de
+          elementos do design do 'Figma'.
+        </span>
       </div>
       <!-- <img src="../assets/icons/arrow.png" alt="" /> -->
     </div>
@@ -202,13 +198,13 @@
 }
 .icons-biography {
   display: flex;
-  align-items: center;
-  flex-direction: row;
   gap: 30px;
 }
 .icons-biography a {
   width: 26.67px;
   height: 26.67px;
+  display: flex;
+  align-items: center;
 }
 .about {
   display: flex;
@@ -217,7 +213,6 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
-
 }
 .about-text {
   display: flex;

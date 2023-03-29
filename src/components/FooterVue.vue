@@ -63,5 +63,6 @@ span {
 .socialMedia .socialMedia-links{
     gap: 30px;
     display: flex;
+    align-items: center;
 }
 </style>

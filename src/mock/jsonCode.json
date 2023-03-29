@@ -3,9 +3,9 @@
     "title": "Vue 3",
     "description": "Temos  o Desafio Carnaval como exemplo de projeto, utilizando o vue 3 e o Javascript.",
     "icons": {
-        "1": "./src/assets/icons/icon-vue-js.png",
-        "2": "./src/assets/icons/icon-sass.png",
-        "3": "./src/assets/icons/icon-js.png"
+        "1": "../src/assets/icons/icon-vue-js.png",
+        "2": "../src/assets/icons/icon-sass.png",
+        "3": "../src/assets/icons/icon-js.png"
       },
     "star": "../src/assets/icons/star.png",
     "numberStar": "8 Estrelas"
@@ -14,9 +14,9 @@
     "title": "Vue 2",
     "description": "Temos o Desafio Letflix como exemplo de projeto, utilizando o vue 2 e o Javascript.",
     "icons": {
-        "1": "./src/assets/icons/icon-vue-js.png",
-        "2": "./src/assets/icons/icon-css.png",
-        "3": "./src/assets/icons/icon-js.png"
+        "1": "../src/assets/icons/icon-vue-js.png",
+        "2": "../src/assets/icons/icon-css.png",
+        "3": "../src/assets/icons/icon-js.png"
       },
     "star": "../src/assets/icons/star.png",
     "numberStar": "8 Estrelas"
@@ -25,31 +25,31 @@
     "title": "HTML, CSS e Javascript",
     "description": "Temos o Questionário Game e o Desafio Google como exemplos de projetos, utilizando o Javascript puro, HTML e CSS.",
     "icons": {
-        "1": "./src/assets/icons/icon-html.png",
-        "2": "./src/assets/icons/icon-css.png",
-        "3": "./src/assets/icons/icon-js.png"
+        "1": "../src/assets/icons/icon-html.png",
+        "2": "../src/assets/icons/icon-css.png",
+        "3": "../src/assets/icons/icon-js.png"
       },
-    "star": "./src/assets/icons/star.png",
+    "star": "../src/assets/icons/star.png",
     "numberStar": "9 Estrelas"
   },
   {
     "title": "Javascript",
     "description": "Resolvi quatro listas com questões complexas, utilizando a lógica de programação e Javascript.",
     "icons": {
-        "1": "./src/assets/icons/icon-js.png"
+        "1": "../src/assets/icons/icon-js.png"
       },
-    "star": "./src/assets/icons/star.png",
+    "star": "../src/assets/icons/star.png",
     "numberStar": "7 Estrelas"
   },
   {
     "title": "Vuetify",
     "description": "Temos o Desafio da Escola Blueberry como exemplo de projeto, utilizando o vue 3 e o Vuetify.",
     "icons": {
-        "1": "./src/assets/icons/icon-html.png",
-        "2": "./src/assets/icons/icon-vuetify.svg",
-        "3": "./src/assets/icons/icon-js.png"
+        "1": "../src/assets/icons/icon-html.png",
+        "2": "../src/assets/icons/icon-vuetify.svg",
+        "3": "../src/assets/icons/icon-js.png"
       },
-    "star": "./src/assets/icons/star.png",
-    "numberStar": "7 Estrelas"
+    "star": "../src/assets/icons/star.png",
+    "numberStar": "8 Estrelas"
   }
 ]
