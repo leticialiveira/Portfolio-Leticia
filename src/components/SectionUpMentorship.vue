@@ -73,21 +73,21 @@
 }
 
 .description p  .span-0 {
-  color: #3bf686;
+  color: rgb(238, 9, 121);
 }
 
 .description p .span-1 {
-  color: #4CA9FF;
+  color: #FF46AB;
 }
 
 .description p .span-2 {
-  color: #62D9FF;
+  color: rgb(248, 213, 214);
 }
 .description p .span-3 {
-  color: #7EF5A6;
+  color: #FFA6D6;
 }
 .description p .span-4 {
-  color:#80E6EA;
+  color:rgb(238, 9, 121);
 }
 
 .description-space {
@@ -98,7 +98,7 @@
   gap: 10px;
 }
 .description-space .space-line {
-  border: solid 5px #3bf686;
+  border: solid 5px rgb(238, 9, 121);
   height: 77px;
 }
 .description .description-space span {
@@ -118,7 +118,7 @@
 }
 
 .panel .panel-article {
-  background: #323443;
+  background: #000;
   border-radius: 12px;
   width: 700px;
   height: 250px;

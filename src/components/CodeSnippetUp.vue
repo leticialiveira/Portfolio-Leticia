@@ -44,14 +44,14 @@ span {
 }
 
 input {
-  background: #3f4152;
+  background: #000;
   border-radius: 10px;
   padding: 20px;
   align-items: center;
   justify-content: center;
   border: 0;
   width: 100%;
-  color: #DEDEDE;
+  color: #ffffff;
   display: block;
 }
 

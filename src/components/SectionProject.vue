@@ -110,7 +110,7 @@ div {
   position: absolute;
   right: 15px;
   top: 10px;
-  background: #3f4152;
+  background: #ff9a9e;
   border-radius: 9px;
   width: 36px;
   height: 36px;
@@ -149,7 +149,7 @@ div {
   line-height: 32px;
 }
 .link-see-more {
-  background: #323443;
+  background: #000;
   border-radius: 12px;
   padding: 8px 30px;
 }

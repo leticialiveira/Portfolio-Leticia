@@ -73,7 +73,7 @@
 .right article {
   width: 655px;
   height: 180px;
-  background: #323443;
+  background: #000;
   border-radius: 12px;
   display: flex;
   align-items: start;
@@ -86,10 +86,10 @@
 article img {
   position: absolute;
   left: -100px;
-  background-color: #323443;
+  background-color: #ff9a9e;
   border-radius: 50%;
   padding: 20px;
-  border: solid 1px #3bf686;
+  border: solid 1px #FFC3E3;
   width: 148px;
   height: 148px;
 }

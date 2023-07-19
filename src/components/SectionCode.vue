@@ -89,7 +89,7 @@
 article {
   width: 556px;
   height: 300px;
-  background: linear-gradient(0deg, #323443, #323443), #eff6ff;
+  background: #000;
   border-radius: 20px;
   color: #ffffff;
   display: flex;
@@ -97,7 +97,16 @@ article {
   justify-content: start;
   flex-direction: column;
   padding: 30px 40px;
+  border: solid 1px #ff9a9e;
   
+}
+
+h2 {
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  width: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
 }
 
 article header .description {

@@ -39,7 +39,7 @@ import jsonProjects from "../mock/jsonProjects.json";
 }
 
 .title h1 span {
-  color: #3bf686;
+  color: #fe5196;;
 }
 
 .title img {

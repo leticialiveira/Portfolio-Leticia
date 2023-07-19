@@ -32,7 +32,7 @@ article {
 
 article .img img {
   width: 451px;
-  border:solid 20px #323443;
+  border:solid 20px #000;
   display: flex;
   justify-content: center;
 }

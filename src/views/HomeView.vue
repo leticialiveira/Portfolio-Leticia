@@ -81,7 +81,7 @@ header {
   gap: 50px;
 }
 .link-see-more {
-  background: #323443;
+  background: #000;
   border-radius: 12px;
   padding: 8px 30px;
   width: 167px;

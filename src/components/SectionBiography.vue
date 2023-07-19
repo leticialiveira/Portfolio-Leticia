@@ -18,7 +18,7 @@
         <p>
           Olá, sou a <span class="span1">Letícia</span>, programadora apaixonada
           por soluções inovadoras e desafios complexos.
-          <span class="span2">Habilidade em aprender rapidamente</span>
+          <span class="span2">Habilidade em aprender rapidamente </span>
           <span class="span3">novas linguagens.</span>
         </p>
       </div>
@@ -61,7 +61,7 @@
       </div>
       <div class="slide">
         <img src="../assets/icons/clipboard-list.png" alt="" />
-        <h3>UX Research</h3>
+        <h3>UX UI</h3>
         <span
           >Para adicionar valores ao Front-end trabalho com a retirada de
           elementos do design do 'Figma'.
@@ -82,7 +82,7 @@
 }
 
 .text {
-  background: linear-gradient(134.01deg, #3bf686 40.75%, #4ca9ff 90.52%);
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -113,7 +113,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3a3636;
+  background-color: #000;
   border-radius: 50%;
 }
 
@@ -124,7 +124,7 @@
   z-index: -1;
   width: calc(100% + 10px);
   height: calc(100% + 10px);
-  background: linear-gradient(134.01deg, #3bf686, #4ca9ff, #3bf686, #4ca9ff);
+  background: linear-gradient(to top, #f77062 0%, #fe5196 100%);
   background-size: 300%;
   border-radius: 50%;
   animation: AnimarBorda 8s linear alternate infinite;
@@ -174,13 +174,13 @@
   line-height: 32px;
 }
 .text-biography p .span1 {
-  color: #4ca9ff;
+  color: #fe5196;
 }
 .text-biography p .span2 {
-  color: #62d9ff;
+  color:#ff9a9e;
 }
 .text-biography p .span3 {
-  color: #80ffa3;
+  color: #fecfef;
 }
 .link-biography {
   display: flex;
@@ -194,7 +194,6 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 72px;
-  width: 100%;
 }
 .icons-biography {
   display: flex;
@@ -236,10 +235,10 @@
   width: 458px;
 }
 .about-text p .span4 {
-  color: #3bf686;
+  color: #fe5196;
 }
 .about-text p .span5 {
-  color: #4ca9ff;
+  color: #f77062;
 }
 .panel {
   display: flex;
@@ -248,9 +247,9 @@
   flex-direction: row;
 }
 .slide {
-  width: 262px;
-  height: 190px;
-  background: #323443;
+  width: 305px;
+  height: 225px;
+  background: #000;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -277,8 +276,8 @@
 .slide img {
   position: absolute;
   top: -25px;
-  border: solid 1px #3bf686;
-  background-color: #323443;
+  border: solid 1px #fecfef;;
+  background-color: #ff9a9e;
   border-radius: 50%;
   padding: 12px;
 }
